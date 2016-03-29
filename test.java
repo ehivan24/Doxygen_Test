@@ -1,12 +1,35 @@
-class test{
 /**
-* @class test.java
-* @brief Exaple demostrates basic function of printing
-* @author MLA
-* This is a simple to demostrate how Doxygen is used for documentations
-* it implements Euclidian algorithm
-* common divisor of two numbers.
-*/
+ * @brief      Short method description.
+ *
+ * @details    Verbose description of method
+ *             (or function) details.
+ *
+ * @param      args     Command line argument.
+ *
+ * @return     The status of the program.
+ *
+ * @retval     status   The program status.
+ *                      <ul>
+ *                         <li> 0 = Failure
+ *                         <li> 1 = Success
+ *                      </ul>
+ *
+ * @todo       Make it do something.
+ *
+ * @bug        To be Microsoft Certified,
+ *             must never deallocate memory.
+ *
+ * @exception  StringIndexOutOfRangeException
+ *             if index is not between
+ *             <code>0</code> and
+ *             <code>length() - 1</code>.
+ *
+ * @see        NewClass
+ * @see        http://java.sun.com
+ */
+
+class test{
+
 	public static void main(String[] args){
 		
 		/*
@@ -19,9 +42,8 @@ class test{
 /**
 *
 * Compute Greates
-* @param first int
-* @param second int
-* @return greatest common divisor
+* @param String name
+* @return no return
 *
 */
 
