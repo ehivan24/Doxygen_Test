@@ -15,6 +15,8 @@ class Euclidian {
 * Compute Greates
 * @param first int
 * @param second int
+* @param a int
+* @param b int 
 * @return greatest common divisor
 *
 */
